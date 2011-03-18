@@ -26,9 +26,9 @@ import java.io.InputStream;
 import java.io.PrintStream;
 
 import org.apache.avro.Protocol;
-import org.apache.avro.idl.Idl;
-import org.apache.avro.idl.ParseException;
-import org.apache.avro.specific.SpecificCompiler;
+import org.apache.avro.compiler.idl.Idl;
+import org.apache.avro.compiler.idl.ParseException;
+import org.apache.avro.compiler.specific.SpecificCompiler;
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;
 import org.apache.maven.project.MavenProject;
